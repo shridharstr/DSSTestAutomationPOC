@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="tests">
+
+
+
+	<listeners>
+		<listener class-name="com.dss.test.reporter.DSSTestReporter" />
+	</listeners>
+
+<!-- 	<test name="DSS-Regression With Firefox"> <parameter name="browser" 
+		value="firefox" /> <parameter name="version" value="40.0.3" /> <classes> 
+		<class name="com.dss.test.dss.subscription.SubscriptionTests" /> </classes> 
+		</test> 
+
+	
+		
+<test name="DSS-Regression With Firefox">
+	 <parameter name="browser" value="firefox" /> 
+	 <parameter name="version" value="47.0" /> 
+	 <classes> 
+		<class name="com.dss.test.dss.subscription.SubscriptionTest" /> 
+	</classes> 
+</test> 
+	
+	Avinash:11.162.10586.0
+	Conference Room: 11.494.10586.0
+	Shridhar: 11.0.9600.16384
+	Abhishek: 11.0.9600.18231
+	
+	Avinash Chrome:51.0.2704.79 m
+
+	
+ 	<test name="DSS-Regression With Chrome">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="51.0.2704.106 m" />
+		<classes>
+			<class name="com.dss.test.dss.subscription.SubscriptionTest" />
+		</classes>
+	</test>
+
+	 -->
+
+
+ 	<test name="DSS-Regression With Internet Explorer"> 
+	       <parameter name="browser" value="internet explorer" /> 
+	       <parameter name="version" value="11.0.9600.18314" /> 
+	     <classes> 
+		    <class name="com.dss.test.dss.subscription.SubscriptionTest" />
+		 </classes> 
+	</test>
+	
+
+	
+</suite>
+
